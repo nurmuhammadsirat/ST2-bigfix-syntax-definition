@@ -16,6 +16,9 @@ patterns:
   endCaptures:
     '1': {name: string.quoted.end.bigfixrelevance}
   comment: Strings in relevance
+- match: (\b(\d+)\b)
+  name: constant.numeric.bigfixrelevance
+  comment: Numbers in relevance
 - match: (\b(exists?|if|\&|then|else|as|whose)\b)
   name: variable.parameter.bigfixrelevance
   comment: Some other stuff in relevance

@@ -46,6 +46,14 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Numbers in relevance</string>
+			<key>match</key>
+			<string>(\b(\d+)\b)</string>
+			<key>name</key>
+			<string>constant.numeric.bigfixrelevance</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>Some other stuff in relevance</string>
 			<key>match</key>
 			<string>(\b(exists?|if|\&amp;|then|else|as|whose)\b)</string>
