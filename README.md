@@ -10,9 +10,12 @@ Well, I do in my job. Since there isn't a proper fixlet debugger in my developme
 
 ## Installation
 
-- Copy over the file bigfix_relevance.tmLanguage to the Sublime Text 2/Packages/User folder in Application Support.
+- In the menu, navigate to Preferences-Browse Packages. In OS X, the preferences menu is a sub-menu under "Sublime Text 2" menu.
+- Copy over the file bigfix_relevance.tmLanguage to the User folder there.
 
   In OS X, the exact folder is /Users/<username>/Library/Application Support/Sublime Text 2/Packages/User. Not sure in other OSes.
+
+  In Windows, the exact folder is C:\Users\<username>\AppData\Roaming\Sublime Text 2\Packages\User.
 
 - Restart Sublime Text 2.
 - Bigfix Relevance syntax should be available in the menu under View-Syntax. Opening *.qna files in Sublime Text 2 should automatically use that syntax as well.
