@@ -2,11 +2,13 @@
 
 ## Description
 
-This is the YAML source for a user-defined syntax definition for the relevance language. Relevance is one of the proprietary languages used by IBM Endpoint Manager (IEM), formerly known as Bigfix.
+This is a user-defined syntax definition for the Relevance language. Relevance is one of the proprietary languages used by IBM Endpoint Manager (IEM), formerly known as Bigfix.
 
 ## Why? Nobody uses this..
 
-Well, I do in my job. Since there isn't a proper fixlet debugger in my development OS of choice (OS X), and I use ST2 a lot for development, I decided to hack this up. It's pretty much a work in progress.
+Well, I do in my job. Since there isn't a proper fixlet debugger, which is a Windows-only GUI application, in my development OS of choice (OS X), and I use ST2 a lot for development, I decided to hack this up. It's pretty much a work in progress.
+
+There is a command-line debugger in for unix-like OSes, but there's no fancy shmancy colors. I like colors.
 
 ## Installation
 
